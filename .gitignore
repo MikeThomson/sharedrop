@@ -18,3 +18,5 @@ testem.log
 
 .env
 newrelic_agent.log
+
+/.idea

@@ -4,6 +4,9 @@
 
 if (process.env.NODE_ENV === 'production') {
     require('newrelic');
+} else {
+    // reduce tool dependencies for development
+    require('dotenv').config();
 }
 
 // Room server
