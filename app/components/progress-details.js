@@ -5,7 +5,6 @@ export default Ember.Component.extend({
     transfer: null,
     transferPercent: null,
     transferSpeed: null,
-    peer:null,
 
     _lastProgressTime:0,
     _lastProgressPercent:0,
